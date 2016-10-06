@@ -4,7 +4,7 @@ abstract class AbstractBase{
 	
 
 	public function arrayCountries(){
-		$file = file_get_contents("countries.json");
+		$file = file_get_contents(__DIR__ ."/../countries.json");
 		return $file;
 	}
 
