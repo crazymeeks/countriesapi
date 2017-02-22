@@ -13,7 +13,7 @@ use Crazymeeks\Countries\Countries;
 $country = Countries::find('Afghanistan');
 
 // Get all countries
-$countries = Countries::all();
+//$countries = Countries::all();
 
-
-echo $countries;
+echo "<pre>";
+echo $country;

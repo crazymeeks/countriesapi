@@ -51,7 +51,7 @@ class Countries extends Base{
 		if(!is_null($country) && !empty($country)){
 				foreach($this->lists as $value){
 					if(stripos($value->name, $country) !== FALSE){
-						$this->results[] = $value->name;
+						$this->results[] = $value;
 					}
 				}
 				
