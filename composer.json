@@ -27,15 +27,15 @@
 			"type": "package",
 			"package": {
 				"name": "crazymeeks/countries",
-				"version": "dev-master",
+				"version": "v3.0.0",
 				"source": {
 					"url": "git://github.com/jepoyclaud/countries.git",
 					"type": "git",
-					"reference": "master"
+					"reference": "v3.0.0"
 				},
 				"autoload": {
 					"psr-4": {
-						"Crazymeeks\\Countries\\": "src"
+						"Crazymeeks\\": "src"
 					}
 				}
 			}
