@@ -1,5 +1,5 @@
 <h1 align="center">
-	WP Rest Api Extender
+	Countries
 	<br>
 	<a href="https://github.com/crazymeeks/countriesapi/releases"><img src="https://img.shields.io/github/release/crazymeeks/countriesapi.svg?maxAge=2592000&colorB=de0404" alt="Release"></a>
 	<a href="https://packagist.org/packages/crazymeeks/countries"><img src="https://packagist.org/packages/crazymeeks/countries.svg?maxAge=2592000" alt="Packgist Latest Version"></a>
