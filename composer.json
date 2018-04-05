@@ -9,13 +9,17 @@
 			"email": "jeffclaud17@gmail.com"
 		}
 	],
-	"require": {},
+	"require": {
+		"php": ">=7.0.0",
+		"ixudra/curl": "^6.16"
+	},
 	"require-dev": {
-		"phpunit/phpunit": "4.0.*"
+		"phpunit/phpunit": "7.0.*"
 	},
 	"autoload": {
 		"psr-4": {
-			"Crazymeeks\\Countries\\": "src"
+			"Crazymeeks\\": "src",
+			"Tests\\": "tests"
 		}
 	},
 	"repositories": [
